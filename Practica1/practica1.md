@@ -1,4 +1,3 @@
-
 ##Ejercicio T1
 
 
