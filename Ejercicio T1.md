@@ -1,9 +1,9 @@
 
-##Ejercicio T1
+##Ejercicio T1 
 
 
 
-###Apache:
+###Apache: 
 Es un servidor web HTTP  de código abierto. "Su nombre se debe a que alguien quería que tuviese la connotación de algo que es firme y enérgico pero no agresivo".
 [Wikipedia](https://es.wikipedia.org/wiki/Servidor_HTTP_Apache)
 
