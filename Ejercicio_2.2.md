@@ -14,3 +14,4 @@ Es un  framework  para SolrCloud. SolrCloud no es un lenguaje pero creo que enca
 [asynctask GitHub](https://github.com/skyshore/asynctask)
 Su descripción de GitHub nos dice todo: "go implementation of high availability asynchronous task framework".
 
+
