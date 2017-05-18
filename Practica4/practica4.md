@@ -20,3 +20,18 @@ Aquí se ve el típico error que cometes al escribir mal (puse apache.key y la l
 Al final nos funciona SSL en la máquina 1:
 ![enter image description here](https://raw.githubusercontent.com/Jesus-Sheriff/SWAP/master/Practica4/capturas/ssl%20funcionando.tiff)
 
+
+
+## Parte opcional
+
+Para configurar la máquina cortafuegos externa primero he clonado en VirtualBox el balanceador de carga (máquina LB).
+Lo primero que hay que hacer es cambiarle el hostname y asignarle una ip estática nueva.
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/cambio%20de%20nombre%20de%20host.png?raw=true)
+
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/ip%20firewall%20antigua.png?raw=true)
+
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/ip%20firewall%20modificada.png?raw=true)
+
+Aquí ya vemos que el nombre del host ha cambiado y la ip es la correcta:
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/maquina%20firewall%20configurado%20nombre%20e%20IP.png?raw=true)
+
