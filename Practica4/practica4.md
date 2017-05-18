@@ -37,9 +37,12 @@ Aquí ya vemos que el **nombre del host** ha cambiado y la **ip** es la correcta
 
 Una vez que tenemos esto se resetea el `iptables` en el servidor 1 (Server 1). En este caso, tenía un script de reseteo de la configuración.
 A continuación copio los scripts de iptables de la máquina 1 al firewall por rsync para tener una "plantilla" y modificarla.
+
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/copiar%20scripts%20iptables%20a%20firewall.png?raw=true)
+
 Este es el script de configuracion(errata: la ip 192.168.56.103 es en realidad la 192.168.56.101):
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/script%20firewall%20iptables.png?raw=true)
+
 Script de reseteo:
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/script%20firewall%20reset.png?raw=true)
 
