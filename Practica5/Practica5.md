@@ -34,9 +34,34 @@ Ahora viene lo interesante, la **replicación**. Vamos a empezar con la **maestr
 Tenemos que modificar el achivo `/etc/mysql/mysql.conf.d/mysqld.cnf` tal y como dice el guión.
 Después hay que crear en nuestro maestro un usuario para que el esclavo se identifique como él.
 
-> Tenemos dos amigos: PEPE :older_man: y ANTONIO:cop:, cada uno con un ordenador.
+> Ejemplo:
+> 
+> Tenemos dos amigos: PEPE:older_man: y ANTONIO:cop:, cada uno con un ordenador.
 > 
 > ANTONIO:cop: quiere conectarse al ordenador de PEPE:older_man:.
 > 
 > PEPE:older_man: debe crear el usuario ANTONIO:cop: en su equipo para que se identifique.
 
+User esclavo:
+
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/user%20esclavo%20creado.png?raw=true)
+
+Se le dan permisos:
+
+![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/dar%20permisos%20a%20esclavo.png?raw=true)
+
+Al intentar hacer la replicación nos muestra este fallo:
+
+![enter image description here](https://raw.githubusercontent.com/Jesus-Sheriff/SWAP/master/Practica5/capturas/error%20sincronizacion%20sql.tiff)
+
+Este fallo es debido a que al principio de los tiempos, estas máquinas virturales habían sido clonadas una de la otra. El UUID que identifica de manera única a cada servidor MySQL coincidía, por tanto se creía que te querías conectar a la misma máquina (cosa que sería absurdo). Esto lo solucionamos poniendoun UUID válido en el archivo `/var/lib/mysql/auto.cnf` o borrándolo y esperando a que se cree nuevo por el sistema.
+
+Pero después salía otro error:
+
+![enter image description here](https://raw.githubusercontent.com/Jesus-Sheriff/SWAP/master/Practica5/capturas/sncronizacion%20incorrecta.tiff)
+
+Este fallo podía ser de dos cosas:
+
+ 1. O bien de la conexión de red.
+ 2. O bien de la gestión del usuario, los permisos y el acceso a la base de datos.
+Tras darle un par de vueltas descubro que la conexión está bien, así que toca ir a lo segundo que es lo complicado :weary::weary::weary:.
