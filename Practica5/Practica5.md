@@ -84,6 +84,9 @@ Para la **parte opcional**, se pide que la replicación sea **maestro-maestro**.
 > 
 > A CARLOS:man: le decimos que es esclavo y que el maestro es CARLA:woman:.
 > 
-> A CARLA:woman: le decimos también que es esclava y que el maestro es CARLOS:man:.
+> A CARLA:woman: le decimos también que es esclavo y que el maestro es CARLOS:man:.
 > 
-> Su relación se basa en una mentira, pero ellos viven felices creyendo que son maestro-maestro :couple_with_heart::heart:.
+> Su relación se basa en una mentira en la que uno depende del otro :arrows_clockwise:, pero ellos viven felices como maestro-maestro :couple_with_heart::heart:.
+
+Para ello, lo único que nos queda hacer con la configuración maestro-esclavo que ya tenemos, es crear un usuario en el esclavo (lo he llamado igual que en el maestro por sencillez) y vincular el maestro actual al esclavo actual con la sentencia que hemos usado antes para crear el maestro-esclavo. 
+
