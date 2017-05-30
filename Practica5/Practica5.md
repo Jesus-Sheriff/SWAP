@@ -27,5 +27,13 @@ Obviamente tenemos que asegurarnos de que el iptables nos permite el envío de p
 
 Ya tenemos las bases de datos con los mismos datos:
 
-![hdfhdhdjf](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/datos%20replicados.png?raw=true)
+![](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/datos%20replicados.png?raw=true)
+
+Ahora viene lo interesante, la **replicación**. Vamos a empezar con la **maestro-esclavo**.
+
+Tenemos que modificar el achivo `/etc/mysql/mysql.conf.d/mysqld.cnf` tal y como dice el guión.
+Después hay que crear en nuestro maestro un usuario para que el esclavo se identifique como él.
+
+> Tenemos dos amigos: PEPE :older_man: y ANTONIO, cada uno con un ordenador.
+> Si ANTONIO quiere conectarse al ordenador de PEPE :older_man:, PEPE :older_man: debe crear el usuario ANTONIO en su equipo para que se identifique.
 
