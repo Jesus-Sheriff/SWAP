@@ -76,3 +76,14 @@ Esta vez, funcionó :clap::clap::clap::clap:.
 
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/Captura%20de%20pantalla%202017-05-23%20a%20la%28s%29%2013.03.01.png?raw=true)
 
+Para la **parte opcional**, se pide que la replicación sea **maestro-maestro**.
+
+> Ejemplo:
+> 
+> Tenemos dos amigos: CARLOS:man: y CARLA:woman:, cada uno con un ordenador.
+> 
+> A CARLOS:man: le decimos que es esclavo y que el maestro es CARLA:woman:.
+> 
+> A CARLA:woman: le decimos también que es esclava y que el maestro es CARLOS:man:.
+> 
+> Su relación se basa en una mentira, pero ellos viven felices creyendo que son maestro-maestro :couplekiss: :heart:.
