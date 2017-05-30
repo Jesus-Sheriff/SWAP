@@ -35,6 +35,8 @@ Tenemos que modificar el achivo `/etc/mysql/mysql.conf.d/mysqld.cnf` tal y como 
 Después hay que crear en nuestro maestro un usuario para que el esclavo se identifique como él.
 
 > Tenemos dos amigos: PEPE :older_man: y ANTONIO:cop:, cada uno con un ordenador.
+> 
 > ANTONIO:cop: quiere conectarse al ordenador de PEPE:older_man:.
+> 
 > PEPE:older_man: debe crear el usuario ANTONIO:cop: en su equipo para que se identifique.
 
