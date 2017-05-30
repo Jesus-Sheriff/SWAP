@@ -44,6 +44,7 @@ Este es el script de configuracion(errata: la ip 192.168.56.103 es en realidad l
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/script%20firewall%20iptables.png?raw=true)
 
 Script de reseteo:
+
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica4/capturas/script%20firewall%20reset.png?raw=true)
 
 Con esto ya podemos ejecutar el script de configuración y comprobar el funcionamiento.
