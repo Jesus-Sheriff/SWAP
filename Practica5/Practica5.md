@@ -86,4 +86,4 @@ Para la **parte opcional**, se pide que la replicación sea **maestro-maestro**.
 > 
 > A CARLA:woman: le decimos también que es esclava y que el maestro es CARLOS:man:.
 > 
-> Su relación se basa en una mentira, pero ellos viven felices creyendo que son maestro-maestro :couplekiss: :heart:.
+> Su relación se basa en una mentira, pero ellos viven felices creyendo que son maestro-maestro :couplekiss: :heart:.   :couplekiss: :couple_with_heart:
