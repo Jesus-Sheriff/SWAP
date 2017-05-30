@@ -14,9 +14,10 @@ Lo primero es crear en una de las máquinas (la que consideres master) una base 
 Lo siguiente es copiar **el contenido** de esta base de datos "tal cual" a la base de datos del equipo que se considere slave. Para eso hay que crear antes en el slave una base de datos. 
 La copia de datos "manual" entre bases de datos MySQL es como sigue:
 
- 1. Generar archivo .sql con **mysqldump**.
+ 1. Generar archivo `.sql` con `mysqldump`.
  2.  Copiar como más te guste este archivo al quipo slave.
- 3. Otra vez con **mysqldump**, volcar el contenido del archivo a la base de datos del slave.
+ 3. Otra vez con `mysqldump`, volcar el contenido del archivo a la base de datos del slave.
 
-Obviamente tenemos que asegurarnos de que el iptables nos permite el envío de paquetes, ya que en la práctica anterior nos denegaba todo lo que no fuese por los puertos 80 y 443 :grin:.
+Obviamente tenemos que asegurarnos de que el iptables nos permite el envío de paquetes, ya que en la práctica anterior nos denegaba todo lo que no fuese por los puertos 80 y 443 :grin:. Yo he copiado el archivo con `scp`.
+
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica5/capturas/scp%20de%20base%20de%20datos%20tras%20reset%20iptables.png?raw=true)
