@@ -20,12 +20,15 @@ Una vez con los tres instalados y configurados. Decidí hacer pruebas de carga c
 Aunque son parecidos en términos de rendimiento, según el entorno en el que se utilicen igual es mejor uno por alguna característica.
 
 Nginx:
+
 ![enter image description here](https://github.com/Jesus-Sheriff/SWAP/blob/master/Practica3/Capturas/tiempos%20nginx.png?raw=true)
 
 HaProxy:
+
 ![enter image description here](https://raw.githubusercontent.com/Jesus-Sheriff/SWAP/master/Practica3/Capturas/tiempos%20haproxy.tiff)
 
 Pound:
+
 ![enter image description here](https://raw.githubusercontent.com/Jesus-Sheriff/SWAP/master/Practica3/Capturas/tiempos%20pound.tiff)
 
 Aquí vemos que el más rápido es HaProxy aunque Nginx no da fallos de "Failed Requests". En este segundo caso un usuario podría tener un **retraso en la comunicación** pero no se le cortaría. En el primer caso podrías haber sido uno de los clientes que recibe un **fallo de conexión** por sobrecarga del servidor (en realidad la sobrecarga ha estado en el balanceador).
